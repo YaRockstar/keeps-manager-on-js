@@ -11,5 +11,6 @@ export class HTMLService {
     if (keepList.length === 0) {
       return `<p class="EmptyList">Нет заметок</p>`;
     }
+    return ``;
   }
 }

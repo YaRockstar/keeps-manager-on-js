@@ -3,12 +3,12 @@ export class KeepService {
     this.keepList = keepList;
   }
 
-  sendToCart(id) {
+  moveToCart(id) {
     const keep = this.getById(id);
     keep.isRemoved = true;
   }
 
-  sendToCartAll() {
+  moveToCartAll() {
     this.keepList.forEach(
       keep => (keep.isRemoved = keep.isRemoved ? keep.isRemoved : true)
     );
