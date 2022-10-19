@@ -1,6 +1,6 @@
-import { NoteService } from './services/noteService.js';
-import { HTMLService } from './services/htmlService.js';
-import { LocalStorageService } from './services/localStorageService.js';
+import { NoteService } from './services/NoteService.js';
+import { HTMLService } from './services/HTMLService.js';
+import { LocalStorageService } from './services/LocalStorageService.js';
 import { Note } from './Note/Note.js';
 
 const html = new HTMLService();

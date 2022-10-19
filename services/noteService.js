@@ -1,4 +1,4 @@
-export class KeepService {
+export class NoteService {
   constructor(noteList = []) {
     this.noteList = noteList;
   }
