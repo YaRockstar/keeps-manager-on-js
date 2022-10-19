@@ -1,14 +1,14 @@
 export class HTMLService {
-  paintKeepText(keep) {
+  paintKeepText(note) {
     return ``;
   }
 
-  paintKeep(keep) {
+  paintKeep(note) {
     return ``;
   }
 
-  paintKeepList(keepList) {
-    if (keepList.length === 0) {
+  paintKeepList(noteList) {
+    if (noteList.length === 0) {
       return `<p class="EmptyList">Нет заметок</p>`;
     }
     return ``;
