@@ -1,2 +1,3 @@
 # keeps-manager-on-js
-Keeps manager on vanilla JS
+
+Note-taking app on vanilla JS
